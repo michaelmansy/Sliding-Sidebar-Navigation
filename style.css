@@ -13,3 +13,9 @@ body{
     height: 100vh;
 }
 
+.nav-img{
+    display: flex;
+    min-width: 55px;
+    justify-content: center;
+}
+
