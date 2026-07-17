@@ -36,3 +36,20 @@ body{
     box-shadow: 0 2px 12px rgba(0,0,0,0.2);
     padding: 15px 10px;
 }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.logo-items{
+    gap: 8px;
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;    
+}
+
+#lock-btn, 
+#close-btn{
+    padding: 10px;
+}
