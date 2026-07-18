@@ -52,4 +52,16 @@ body{
 #lock-btn, 
 #close-btn{
     padding: 10px;
+    color: #2e2e2e;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 4px;
 }
+
+#close-btn{
+    color: #333;
+    display: none;
+}
+
+
+
