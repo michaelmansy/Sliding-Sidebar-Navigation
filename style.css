@@ -72,3 +72,9 @@ body{
     height: calc(100% - 82px);
 }
 
+.menu-title{
+    position: relative;
+    height: 50px;
+    width: 55px;
+}
+
