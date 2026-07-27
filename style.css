@@ -103,3 +103,27 @@ body{
     color: #fff;
 }
 
+.link i{
+    height: 50px;
+    min-width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-profile{
+    padding-top: 15px;
+    margin-top: 15px;
+    gap: 15px;
+    border-top: 2px solid rgba(0,0,0,0.1);
+}
+
+.sidebar-profile .name{
+    font-size: 18px;
+    color: #333;
+}
+
+.sidebar-profile .email {
+    font-size: 15px;
+    color: #333;
+}
