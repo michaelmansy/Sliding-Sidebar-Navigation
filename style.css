@@ -72,6 +72,11 @@ body{
     height: calc(100% - 82px);
 }
 
+.menu-container::-webkit-scrollbar{
+    display: none;
+
+}
+
 .menu-title{
     position: relative;
     height: 50px;
@@ -127,3 +132,20 @@ body{
     font-size: 15px;
     color: #333;
 }
+
+
+/* Navbar for style */
+.navbar{
+    max-width: 500px;
+    margin: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 60%;
+    background: #000;
+    transition: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
