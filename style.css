@@ -142,10 +142,21 @@ body{
     position: fixed;
     top: 0;
     left: 60%;
-    background: #000;
+    background: #fff;
     transition: translateX(-50%);
     padding: 10px 20px;
     border-radius: 10px;
     justify-content: space-between;
 }
 
+.search-box{
+    height: 40px;
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
