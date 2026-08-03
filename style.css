@@ -163,9 +163,37 @@ body{
     width: 100%;
     border: 1px solid #aaa;
     outline: none;
-    padding: 0 15px;
+    padding-right: 15px;
     font-size: 18px;
     border-radius: 8px;
     color: #333;
     box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+
+@media(max-width: 1100px){
+    .navbar{
+        left: 65%;
+    }
+}
+
+@media(max-width: 800px){
+    .sidebar{
+        left: 0%;
+        z-index: 1000;
+    }
+
+    .sidebar.close{
+        left: -100%;
+    }
+
+    .navbar{
+        left: 0;
+        max-width: 100%;
+        transform: translateX(0%);
+    }
+
+    #siedebarOpen{
+        display: block;
+    }
 }
